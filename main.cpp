@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    ShellExecute(NULL, "runas", "cmd", "/c ipconfig flushdns", NULL, SW_HIDE);
     return 0;
 }
